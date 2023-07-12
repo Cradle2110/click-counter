@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Click Counter</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+</head>
+<body>
+  <div class="main-div">
+    <div class="main-grid">
+      <div class="result-grid">  
+        <p class="result-title">Dana</p>
+        <p id="result-dana">0</p>
+      </div>
+      <div class="result-grid">
+        <p class="result-title">Lennart</p>
+        <p id="result-lennart">0</p>
+      </div> 
+        <div class="button-div">
+          <button id="add-lennart" onclick="addDana()">+</button>
+          <button id="delete-lennart" onclick="deleteDana()">-</button>
+        </div>
+        <div class="button-div">
+          <button id="add-dana" onclick="addLennart()">+</button>
+          <button id="delete-dana" onclick="deleteLennart()">-</button>
+        </div>
+    </div>
+  </div>
+</body>
+</html>

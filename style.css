@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: rgb(73, 73, 73);
+}
+
+/*body {} */
+
+.main-div {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(Streifenwagen.jpg) no-repeat center center fixed;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-blend-mode: lighten;
+  background-size: cover;
+}
+
+.main-grid {
+  height: 30rem;
+  width: 20rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+  text-align: center;
+  background-color: #293133;
+  opacity: 0.95;
+  border-radius: 6px;
+  color: white;
+}
+
+#result-lennart,
+#result-dana {
+  font-size: 2rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.result-title {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.button-div {
+  display: flex;
+  flex-direction: column;
+}
+
+#add-lennart, 
+#add-dana,
+#delete-lennart,
+#delete-dana {
+  opacity: 0.7;
+  margin: .15rem;
+}
+
+#add-lennart, 
+#add-dana {
+  height: 6rem;
+  font-size: 4rem;
+}
+
+#delete-lennart,
+#delete-dana {
+  height: 3rem;
+  font-size: 2rem;
+}
