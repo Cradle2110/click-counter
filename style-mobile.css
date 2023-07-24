@@ -59,6 +59,7 @@
   border-radius: 50%;
   opacity: 1;
   color: white;
+  touch-action: manipulation;
 }
 
 /*
